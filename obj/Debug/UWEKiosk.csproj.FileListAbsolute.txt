@@ -47,10 +47,7 @@ C:\UWE_Thesis\UWEKiosk\obj\Debug\SplashPage.g.cs
 C:\UWE_Thesis\UWEKiosk\obj\Debug\App.g.cs
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk_MarkupCompile.cache
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk_MarkupCompile.lref
-C:\UWE_Thesis\UWEKiosk\obj\Debug\App.baml
-C:\UWE_Thesis\UWEKiosk\obj\Debug\MainWindow.baml
 C:\UWE_Thesis\UWEKiosk\obj\Debug\MapPage2.baml
-C:\UWE_Thesis\UWEKiosk\obj\Debug\SplashPage.baml
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.g.resources
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.Properties.Resources.resources
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.csproj.GenerateResource.cache
