@@ -368,9 +368,9 @@ namespace UWEKiosk
                                     }
                                     if (newPath)
                                     {
-                                        neighbor.H = Heuristic(neighbor, End);
-                                        //neighbor.F = neighbor.G + neighbor.H;
-                                        neighbor.G = neighbor.F + neighbor.H;
+                                        neighbor.H = Convert.ToInt64(Heuristic(neighbor, End)*0.1);
+                                        neighbor.F = neighbor.G + neighbor.H;
+                                        //neighbor.G = neighbor.F + neighbor.H;
                                         neighbor.CameFrom = current;
                                     }
                                     closedSet.Add(neighbor);

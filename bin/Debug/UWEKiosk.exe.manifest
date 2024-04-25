@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWEKiosk.exe" size="55264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UWEKiosk.exe" size="54752">
       <assemblyIdentity name="UWEKiosk" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l7C6yvg9BdOpcQcoImjgNzPpZaM1aHKXxyso4tbYEDM=</dsig:DigestValue>
+        <dsig:DigestValue>05l4igqPaXPDTRIugKznFY+lbD0LO154vVXm1MVsrao=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -107,7 +107,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Gw2ZdVOyH7z68Bw/5+1699etZqRp9AiaS9BdfEOdpjc=</dsig:DigestValue>
+      <dsig:DigestValue>AGU8wfgCR8F/OKhT6Ta4y3xk3Pu7RNi7/VHyFM8oFWg=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

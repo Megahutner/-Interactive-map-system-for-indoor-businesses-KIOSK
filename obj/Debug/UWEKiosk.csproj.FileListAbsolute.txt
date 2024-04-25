@@ -57,3 +57,6 @@ C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.application
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.csproj.Up2Date
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.exe
 C:\UWE_Thesis\UWEKiosk\obj\Debug\UWEKiosk.pdb
+C:\UWE_Thesis\UWEKiosk\obj\Debug\App.baml
+C:\UWE_Thesis\UWEKiosk\obj\Debug\MainWindow.baml
+C:\UWE_Thesis\UWEKiosk\obj\Debug\SplashPage.baml

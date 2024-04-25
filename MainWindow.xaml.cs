@@ -44,7 +44,7 @@ namespace UWEKiosk
             HttpClient client = new HttpClient();
             client.BaseAddress = new Uri("https://localhost:7107/");
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-            HttpResponseMessage response = client.GetAsync("api/zone/get-zone-info?zoneId=" + zoneId).Result;
+            HttpResponseMessage response = client.GetAsync("api/zone/kiosk/get-zone-details?zoneId=" + zoneId).Result;
             if (response.IsSuccessStatusCode)
             {
                 File.WriteAllText($"{Directory.GetCurrentDirectory()}/DataInformation/json.txt", response.Content.ReadAsStringAsync().Result);
