@@ -55,15 +55,18 @@ namespace UWEKiosk
                     {
                         if (item.Type == 2) // normal block
                         {
-                            MapObject blockObject = new MapObject();
-                            blockObject.ObjectId = item.ObjectId;
-                            blockObject.Width = item.Width;
-                            blockObject.Height = item.Height;
-                            blockObject.X = item.Lat ;
-                            blockObject.Y = item.Lng;
-                            blockObject.Type = 2;
-                            blockObject.Rotate = item.Front;
-                            map.Object.Add(blockObject);
+                    if(item.Category != "Wall")
+                    {
+                        MapObject blockObject = new MapObject();
+                        blockObject.ObjectId = item.ObjectId;
+                        blockObject.Width = item.Width;
+                        blockObject.Height = item.Height;
+                        blockObject.X = item.Lat;
+                        blockObject.Y = item.Lng;
+                        blockObject.Type = 2;
+                        blockObject.Rotate = item.Front;
+                        map.Object.Add(blockObject);
+                    }                      
                         }
                         else
                         {
@@ -521,11 +524,11 @@ namespace UWEKiosk
                     image.Stretch = Stretch.Fill;
                     mapGrid.Background = image;
                 }
-                zoneObjects.ItemsSource = zoneInfo.ObjectList.Where(m => m.Type == 2);
-                CollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(zoneObjects.ItemsSource);
+                zoneObjects.ItemsSource = zoneInfo.ObjectList.Where(m => m.Type == 2 && m.Category!= "Wall");
+                ICollectionView view = (CollectionView)CollectionViewSource.GetDefaultView(zoneObjects.ItemsSource);
                 PropertyGroupDescription groupDescription = new PropertyGroupDescription("Category");
                 view.GroupDescriptions.Add(groupDescription);
-                view.SortDescriptions.Add(new SortDescription("Category", ListSortDirection.Ascending));
+                view.SortDescriptions.Add(new SortDescription("Name", ListSortDirection.Ascending));
                 foreach (var item in zoneInfo.ObjectList)
                 {
                     if (item.Type == 2)
