@@ -1,4 +1,4 @@
-# UWE Kiosk Application
+# Kiosk Application for the interactive map system for indoor businesses
 
 Step 1: Install VS Community/Pro
 
